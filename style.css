@@ -1,0 +1,51 @@
+body {
+  font-family: 'Yeseva One', cursive;
+  margin: 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 3%;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 400;
+  border-left: 4px solid #FF5959;
+  padding-left: 13px;
+  border-radius: 5px;
+  margin-top: 150px;
+  margin-bottom: 0;
+}
+
+.text-part-color{
+  color: #FFAD5A;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  color: #3E3E3E;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-color: #FF5959;
+  border-radius: 5px;
+  padding: 12px 38px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.half-width img{
+  width: 90%;
+}
