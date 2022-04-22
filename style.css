@@ -4,7 +4,7 @@ body {
 }
 
 section {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .flexible-container {
@@ -20,7 +20,6 @@ section {
 h1{
   font-family: 'Yeseva One', cursive;
   font-size: 60px;
-  font-weight: 400;
   border-left: 4px solid #FF5959;
   padding-left: 13px;
   border-radius: 5px;
@@ -55,9 +54,9 @@ p{
 ********************** */
 h2 {
   font-size: 48px;
-  font-weight: 700;
   text-align: center;
 }
+
 .blogs {
   width: 85%;
   margin: 0 auto;
@@ -87,6 +86,92 @@ h2 {
   background-color: #FFF4D6;
 }
 
-.blog-title {
+h4 {
   font-size: 24px;
+}
+
+/* *****************************************
+  develop and community documentation area
+******************************************** */
+.article-area {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 15%;
+  background-position-x: 2%;
+}
+
+.article {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  width: 40%;
+}
+.thumbnail img {
+  width: 100%;
+}
+
+.article-info {
+  width: 55%;
+}
+
+.article-title {
+  font-size: 36px;
+  color: #333333;
+  margin-top: 80px;
+}
+
+.community-area {
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 15%;
+  background-position: 95% 95%;
+}
+
+/* ************
+  contact area
+***************/
+.contact-area {
+  background-color: rgba(79, 157, 166, 0.1);
+  padding-top: 20px;
+}
+
+form input, textarea {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 3px solid lightgrey;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+form button {
+  border: none;
+}
+
+/* ************
+  footer area
+***************/
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+footer h3 {
+  font-family: 'Lobster', cursive;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+footer span {
+  color: #FF5959;
+}
+
+footer p {
+  color: lightgray;
+  margin-bottom: 0;
 }
